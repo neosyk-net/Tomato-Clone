@@ -71,8 +71,6 @@
     color: tomato;
     font-weight: 500;
     cursor: pointer;
-}
-
-.guest-login span {
     text-decoration: underline;
 }
+
