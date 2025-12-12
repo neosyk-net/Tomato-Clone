@@ -46,7 +46,7 @@ const PlaceOrder = () => {
               </b>
             </div>
           </div>
-          <button>PROCEED TO PAYMENT</button>
+          <button disabled>PROCEED TO PAYMENT</button>
         </div>
       </div>
     </form>

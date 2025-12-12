@@ -27,7 +27,7 @@
 .footer-content-left li, .footer-content-right li, .footer-content-center li {
     list-style: none;
     margin-bottom: 10px;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 .footer-content-right h2, .footer-content-center h2 {
@@ -37,6 +37,7 @@
 .footer-social-icons img {
     width: 40px;
     margin: 15px;
+    cursor: not-allowed;
 }
 
 .footer hr {
