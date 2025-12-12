@@ -10,20 +10,20 @@ const PlaceOrder = () => {
       <div className="place-order-left">
         <p className="title">Delivery Information</p>
         <div className="multi-fields">
-          <input type="text" placeholder="First Name" />
-          <input type="text" placeholder="Last Name" />
+          <input type="text" placeholder="First Name" autoComplete="given-name"/>
+          <input type="text" placeholder="Last Name" autoComplete="family-name"/>
         </div>
-        <input type="email" placeholder="Email" />
-        <input type="text" placeholder="Street Address" />
+        <input type="email" placeholder="Email" autoComplete="email"/>
+        <input type="text" placeholder="Street Address" autoComplete="street-address"/>
         <div className="multi-fields">
-          <input type="text" placeholder="City" />
-          <input type="text" placeholder="State" />
+          <input type="text" placeholder="City" autoComplete="address-level2"/>
+          <input type="text" placeholder="State" autoComplete="address-level1"/>
         </div>
         <div className="multi-fields">
-          <input type="text" placeholder="Zip Code" />
-          <input type="text" placeholder="Country" />
+          <input type="text" placeholder="Zip Code" autoComplete="postal-code"/>
+          <input type="text" placeholder="Country" autoComplete="country-name"/>
         </div>
-        <input type="text" placeholder="Phone" />
+        <input type="text" placeholder="Phone" autoComplete="tel"/>
       </div>
       <div className="place-order-right">
         <div className="cart-total">
