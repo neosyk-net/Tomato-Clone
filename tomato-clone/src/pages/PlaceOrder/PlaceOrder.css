@@ -60,4 +60,7 @@
     .cart-total h2 {
         text-align: center;
     }
+    .place-order-right .cart-total button {
+        margin: 0 auto;
+    }
 }
