@@ -46,3 +46,18 @@
     font-weight: 500;
     padding-left: 22px;
 }
+
+@media (max-width: 1330px) {
+    .place-order {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .place-order p {
+        text-align: center;
+    }
+    .cart-total h2 {
+        text-align: center;
+    }
+}
